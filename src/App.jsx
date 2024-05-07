@@ -1,12 +1,13 @@
-import { motion } from "framer-motion";
+
+import Home from "./components/AllComponents/Home";
 
 function App() {
 	return (
-		<div className="flex flex-col gap-10 overflow-x-hidden">
-			<motion.section>
-				<h1 className="text-rose-500 font-petit ">hello</h1>
+		<div className="">
+			
+				<Home />
 				
-			</motion.section>
+		
 		</div>
 	);
 }
